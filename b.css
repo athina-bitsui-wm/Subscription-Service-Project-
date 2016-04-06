@@ -1,3 +1,26 @@
 body{
     background-image: url(wood.jpg);
 }
+header{
+    text-align: center;
+    color: #fbf6ff;
+    background-color: #5cbfff
+}
+div.menma{
+    float: right;
+    font-size: larger;
+    background-color: blue;
+}
+div.nynoko{
+    float: right;
+    background-color: #e4ffbc;
+}
+div.taro {
+    float: right;
+    background-color: bisque;
+    height: auto;
+}
+a{
+    color: #fbf6ff;
+}
+

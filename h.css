@@ -1,0 +1,19 @@
+body{
+    background-image: url(wood.jpg);
+}
+header{
+    text-align: center;
+    color: #fbf6ff;
+    background-color: #5cbfff;
+}
+div.bob{
+    height: 150px;
+}
+div.nartuo{
+    text-align: center;
+}
+input{
+    line-height: 45px;
+    width: 250px;
+    font-size: 23px;
+}

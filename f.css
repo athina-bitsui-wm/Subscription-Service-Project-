@@ -1,0 +1,9 @@
+input{
+    line-height: 20px;
+    width: 150px;
+    font-size: 13px;
+}
+li{
+    display: block;
+    color: #fbf6ff;
+}
