@@ -8,12 +8,21 @@ header{
 }
 div.bob{
     height: 150px;
-}
-div.nartuo{
     text-align: center;
 }
 input{
-    line-height: 45px;
+    line-height: 25px;
     width: 250px;
     font-size: 23px;
+}
+div.naruto{
+    border-style: groove;
+    background-color: rgba(65, 146, 211, 0.84);
+    text-align: center;
+}
+div.sasuke{
+    height: 250px;
+}
+div.bob{
+    height: 123px;
 }

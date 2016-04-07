@@ -10,7 +10,10 @@ div.naruto{
     text-align: center;
 }
 input{
-    line-height: 45px;
+    line-height: 25px;
     width: 250px;
     font-size: 23px;
+}
+div.bob{
+    height: 123px;
 }

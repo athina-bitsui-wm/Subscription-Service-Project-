@@ -1,6 +1,9 @@
 body{
     background-image: url(wood.jpg);
 }
+#container{
+    background-color: rgba(65, 146, 211, 0.84);
+}
 header{
     text-align: center;
     color: #fbf6ff;
@@ -9,18 +12,25 @@ header{
 div.menma{
     float: right;
     font-size: larger;
-    background-color: blue;
+    height: 10px;
+}
+div.bob{
+    height: 100px;
 }
 div.nynoko{
-    float: right;
-    background-color: #e4ffbc;
+    float: left;
 }
 div.taro {
     float: right;
-    background-color: bisque;
-    height: auto;
+    font-size: large;
+    background-color: rgba(65, 146, 211, 0.84);
 }
 a{
     color: #fbf6ff;
 }
+li{
+    display: block;
+    color: #fbf6ff;
+}
+
 
