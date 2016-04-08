@@ -7,7 +7,13 @@ header{
     background-color: #5cbfff;
 }
 div.naruto{
+    border-style: groove;
+    background-color: rgba(65, 146, 211, 0.84);
     text-align: center;
+}
+div.sasuke{
+    text-align: center;
+    height: 150px;
 }
 input{
     line-height: 25px;
@@ -16,4 +22,10 @@ input{
 }
 div.bob{
     height: 123px;
+}
+div.billbo{
+    height: 150px;
+}
+table{
+    text-align: center;
 }
