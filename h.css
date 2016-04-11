@@ -2,28 +2,33 @@ body{
     background-image: url(wood.jpg);
 }
 header{
-    text-align: center;
     color: #fbf6ff;
     background-color: #5cbfff;
+}
+div.naruto{
+    text-align: center;
+}
+div.sasuke{
+    float: left;
 }
 div.bob{
     height: 150px;
     text-align: center;
 }
-input{
-    line-height: 25px;
-    width: 250px;
-    font-size: 23px;
-}
-div.naruto{
+div.menma{
     border-style: groove;
     background-color: rgba(65, 146, 211, 0.84);
     text-align: center;
 }
-div.sasuke{
+div.nynoko{
     height: 250px;
 
 }
 div.bob{
     height: 123px;
 }
+input{
+     line-height: 25px;
+     width: 250px;
+     font-size: 23px;
+ }
