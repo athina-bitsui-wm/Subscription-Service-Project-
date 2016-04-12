@@ -1,9 +1,27 @@
-input{
-    line-height: 20px;
-    width: 150px;
-    font-size: 13px;
+body{
+    background-image: url('wood.jpg');
 }
-li{
-    display: block;
+header{
+    text-align: center;
+    background-color: #5cbfff;
+    color: #fbf6ff;
+}
+#container{
+    background-color: rgba(65, 146, 211, 0.84);
+}
+div.naruto {
+    font-size: larger;
+    color: #fbf6ff;
+}
+div.sasuke{
+    font-size: larger;
+    color: #fbf6ff;
+}
+div.menma{
+    font-size: larger;
+    color: #fbf6ff;
+}
+div.nyoko{
+    font-size: larger;
     color: #fbf6ff;
 }
