@@ -1,0 +1,21 @@
+body{
+    background-image: url('wood.jpg');
+}
+#container{
+    background-color: rgba(65, 146, 211, 0.84);
+}
+header{
+    background-color: #5cbfff;
+}
+div.naruto{
+    text-align: center;
+}
+div.sasuke{
+    float: left;
+}
+div.menma{
+    float: right;
+}
+div.nyoko{
+    float: left;
+}

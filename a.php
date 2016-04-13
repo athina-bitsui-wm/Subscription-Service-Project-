@@ -1,8 +1,9 @@
 <!DOCTYPEhtml>
-        <html>
+<html>
 <head>
     <title>Books</title>
     <link rel="stylesheet" type="text/css" href="b.css">
+
 </head>
 
 <body>
@@ -19,8 +20,8 @@
 
     <div class="menma">
         <!-- signin/login -->
-        <a href="c.html">login</a>
-        <a href="d.html">sign in</a>
+        <a href="c.php">login</a>
+        <a href="d.php">sign in</a>
     </div>
 
     <div class="nynoko">
@@ -49,18 +50,6 @@
 
     <div class="ryuu">
 
-        <div id="slideshow">
-            <div>
-                <img src="uchiha.png">
-            </div>
-            <div>
-                <img src="wood.jpg">
-            </div>
-            <div>
-                do you see what you like?
-            </div>
-        </div>
-
     </div>
 
     <div class="hotaru">
@@ -69,6 +58,9 @@
 
     <div class="nako">
         <!-- some books from the catgories -->
+        <div class="romance">
+
+        </div>
     </div>
 </div>
 </body>

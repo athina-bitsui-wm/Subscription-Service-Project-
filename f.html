@@ -1,5 +1,5 @@
 <!DOCTYPEhtml>
-        <html>
+<html>
 
 <head>
     <title>review</title>
@@ -13,31 +13,34 @@
 
 <div id="container">
 
-        <div class="naruto">
-            <p>how good is the book?</p>
-            <form>
-                <input type="radio" name="ratting" value="hate it"> hate it<br>
-                <input type="radio" name="ratting" value="ok">ok<br>
-                <input type="radio" name="ratting" value="good">good <br>
-                <input type="radio" name="ratting" value="like is  a lot"> like it a lost <br>
-                <input type="radio" name="ratting" value="love it">love it
-            </form>
+    <div class="naruto">
+        <p>how good is the book?</p>
+        <form method="post" action="f.php">
+            <input type="radio" name="ratting" id="ratting" value="hate it"> hate it<br>
+            <input type="radio" name="ratting" id="ratting" value="ok">ok<br>
+            <input type="radio" name="ratting" id="ratting" value="good">good <br>
+            <input type="radio" name="ratting" id="ratting" value="like is  a lot"> like it a lost <br>
+            <input type="radio" name="ratting" id="ratting" value="love it">love it
+        </form>
+        <?php
 
-        </div>
+        ?>
 
-        <div class="sasuke">
-            <p>write a short summary to the story</p>
-            <textarea type="comment" name="comment"></textarea>
-        </div>
+    </div>
 
-        <div class="menma">
-            <p>would to want to recomed this to others?</p>
-            <form>
-                <input type="radio" name="choices" value="Yes">Yes<br>
-                <input type="radio" name="choices"  value="No">No
-            </form>
-            <button type="submit">Send</button>
-        </div>
+    <div class="sasuke">
+        <p>write a short summary to the story</p>
+        <textarea type="comment" name="comment"></textarea>
+    </div>
+
+    <div class="menma">
+        <p>would to want to recomed this to others?</p>
+        <form>
+            <input type="radio" name="choices" value="Yes">Yes<br>
+            <input type="radio" name="choices"  value="No">No
+        </form>
+        <button type="submit">Send</button>
+    </div>
 
 </div>
 </body>
