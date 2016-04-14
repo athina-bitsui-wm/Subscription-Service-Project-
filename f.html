@@ -4,6 +4,7 @@
 <head>
     <title>review</title>
     <link rel="stylesheet" type="text/css" href="f.css">
+    <link rel="php" type="text/php" href="f.php">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
     <div class="naruto">
         <p>how good is the book?</p>
-        <form method="post" action="f.php">
+        <form method="post">
             <input type="radio" name="ratting" id="ratting" value="hate it"> hate it<br>
             <input type="radio" name="ratting" id="ratting" value="ok">ok<br>
             <input type="radio" name="ratting" id="ratting" value="good">good <br>
@@ -30,16 +31,16 @@
 
     <div class="sasuke">
         <p>write a short summary to the story</p>
-        <textarea type="comment" name="comment"></textarea>
+        <textarea type="comment" id="comment" name="comment"></textarea>
     </div>
 
     <div class="menma">
         <p>would to want to recomed this to others?</p>
-        <form>
-            <input type="radio" name="choices" value="Yes">Yes<br>
-            <input type="radio" name="choices"  value="No">No
+        <form method="post">
+            <input type="radio" id="choices" name="choices" value="Yes">Yes<br>
+            <input type="radio" id="choices" name="choices"  value="No">No
         </form>
-        <button type="submit">Send</button>
+        <input type="submit" name="submit" value="post">
     </div>
 
 </div>

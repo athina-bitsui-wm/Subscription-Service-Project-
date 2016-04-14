@@ -3,9 +3,14 @@ body{
 }
 #container{
     background-color: rgba(65, 146, 211, 0.84);
+    width: 1000px;
+    height: 550px;
+    left: 200px;
+    right: 20px;
 }
 header{
     background-color: #5cbfff;
+    color: #fbf6ff;
 }
 div.naruto{
     text-align: center;
@@ -18,4 +23,5 @@ div.menma{
 }
 div.nyoko{
     float: left;
+    color: #fbf6ff;
 }
