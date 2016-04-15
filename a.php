@@ -8,25 +8,26 @@
 
 <body>
 <header>
-    <!-- <div class="naruto"> -->
-    <h1>~ Books ~</h1>
-    <!-- </div> -->
+    <div class="nynoko">
+        <input type="text" placeholder="Search">
+    </div>
 
-    <!-- <div class="sasuke">
-       <img src="uchiha.png" height="70" width="70">
-    </div> -->
+    <div class="sasuke">
+        <img src="#" height="#" width="#">
+    </div>
+    <div class="naruto">
+        <h1>~ Books ~</h1>
+    </div>
 </header>
 <div id="container">
 
     <div class="menma">
         <!-- signin/login -->
-        <a href="c.php">login</a>
+        <a href="c.html">login</a>
         <a href="d.php">sign in</a>
     </div>
 
-    <div class="nynoko">
-        <input type="text" placeholder="Search">
-    </div>
+
 
     <div class="bob">
 
@@ -49,18 +50,8 @@
     </div>
 
     <div class="ryuu">
-
-    </div>
-
-    <div class="hotaru">
-        <!-- Books i read/reated -->
-    </div>
-
-    <div class="nako">
-        <!-- some books from the catgories -->
-        <div class="romance">
-
-        </div>
+        <a href="n.html"><img src="Black_Bird_Vol_1.jpg" height="226" width="150"></a>
+        <a href="k.html"><img src="red_queen.jpg" height="226" width="150"></a>
     </div>
 </div>
 </body>

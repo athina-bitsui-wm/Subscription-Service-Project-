@@ -9,6 +9,9 @@ header{
     color: #fbf6ff;
     background-color: #5cbfff
 }
+div.sasuke{
+    float: left;
+}
 div.menma{
     float: right;
     font-size: larger;
@@ -18,12 +21,11 @@ div.bob{
     height: 100px;
 }
 div.nynoko{
-    float: left;
+    float: right;
 }
 div.taro {
     float: right;
     font-size: large;
-    background-color: rgba(65, 146, 211, 0.84);
 }
 a{
     color: #fbf6ff;

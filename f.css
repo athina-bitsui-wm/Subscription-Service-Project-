@@ -8,20 +8,6 @@ header{
 }
 #container{
     background-color: rgba(65, 146, 211, 0.84);
-}
-div.naruto {
-    font-size: larger;
     color: #fbf6ff;
-}
-div.sasuke{
     font-size: larger;
-    color: #fbf6ff;
-}
-div.menma{
-    font-size: larger;
-    color: #fbf6ff;
-}
-div.nyoko{
-    font-size: larger;
-    color: #fbf6ff;
 }
